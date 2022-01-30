@@ -1,0 +1,27 @@
+#card{
+    display:flex;
+    flex-wrap: wrap;
+    border: 1px solid #000000;
+    justify-content: left;
+    gap: 20px;
+    padding: 20px;
+    background:linear-gradient(rgb(130, 145, 107) ,green)
+}
+
+.container{
+   
+    background: linear-gradient(rgb(184, 184, 158))
+}
+
+.main{
+    flex-direction: row;
+    border: 1px solid black;
+    margin:5px ;
+    background: linear-gradient(yellow, rgb(197, 174, 110));
+    border-radius : 4px;
+    gap:5px;
+}
+body{
+   font-size: 14px;
+   font-family: "Helvetica Neue",
+}
